@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+}
+
+h2 {
+	color: green;
+	border-left: 5px solid;
+	padding-left: 10px;
+}
+
+header  {
+   padding: 20px;
+   border-bottom: 5px solid green;
+   text-align: center;
+}
+
+footer {
+   padding: 20px;
+   border-top: 5px solid green;
+   text-align: center;
+}
+
+.foto1 {
+	border: 2px dashed;
+}
+
+.cont {
+	color: skyblue;
+	margin-right: 20px;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+}
+
+.aside {
+	margin: 50px;
+}
+
+
+main {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-grow: 1;
+  padding: 50px;
+}
